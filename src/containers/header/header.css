@@ -1,0 +1,9 @@
+/* search results */
+.search_bg {
+  background: linear-gradient(
+    135deg,
+    rgba(241, 235, 255, 1) 0%,
+    rgba(229, 229, 250, 1) 47%,
+    rgba(234, 247, 253, 1) 100%
+  );
+}
