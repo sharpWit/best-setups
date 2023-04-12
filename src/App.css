@@ -3,11 +3,19 @@
   height: 100%;
   position: relative;
 }
+html {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+}
 html,
 body {
   direction: rtl;
   height: 100%;
   width: 100%;
+  min-height: 100vh;
+}
+body {
+  overflow: auto;
 }
 
 * {

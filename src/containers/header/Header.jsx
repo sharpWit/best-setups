@@ -13,10 +13,10 @@ function Header() {
       <div className="my-0 mx-auto max-w-[1800px] box-border">
         <div className="flex justify-between items-center py-3.5 px-5 box-border min-w-0">
           {/* right col */}
-          <div className="flex basis-2/3 items-center min-w-0">
+          <div className="flex basis-2/3 items-center justify-start min-w-0">
             {/* menu */}
             <div>
-              <div className="shrink-0 box-border select-none ml-2.5 relative">
+              <div className="shrink-0 box-border select-none ml-5 relative">
                 <div
                   className={
                     isActive
@@ -59,7 +59,7 @@ function Header() {
             </div>
             {/* logo ends */}
             {/* search bar */}
-            <div className="basis-7/12 relative w-full">
+            <div className="basis-1/2 relative w-full">
               <form action="">
                 <div className="search_bg rounded-3xl relative flex box-border min-w-0 w-full h-10">
                   <div className="flex-1 relatove">
@@ -96,17 +96,17 @@ function Header() {
           </div>
           {/* right col rnds */}
           {/* left col */}
-          <div className="flex basis-1/4 items-center min-w-0 shrink-0 ml-5">
+          <div className="flex basis-1/4 items-center justify-between min-w-0 shrink-0 ml-5">
             {/* notifacation */}
-            <div className="relative">
-              <div className="block relative top-auto right-auto rounded-3xl text-2xl box-border border-solid border border-slate-500 cursor-pointer hover:bg-slate-800/10 transition ease-in-out delay-100 hover:scale-110 duration-100">
+            <div className="relative box-border transition ease-in-out delay-100 hover:scale-110 duration-100">
+              <div className="block relative top-auto right-auto rounded-3xl text-2xl  border-solid border border-slate-500 cursor-pointer hover:bg-bg ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-7 h-7"
+                  className="w-7 h-7 hover:text-accent"
                 >
                   <path
                     strokeLinecap="round"
@@ -118,15 +118,15 @@ function Header() {
             </div>
             {/* notifacation ends */}
             {/* darkmode */}
-            <div className="relative mr-5">
-              <div className="block relative top-auto right-auto rounded-3xl text-2xl box-border border-solid border border-slate-500 cursor-pointer">
+            <div className="relative box-border mx-3 transition ease-in-out delay-100 hover:scale-110 duration-100">
+              <div className="block relative top-auto right-auto rounded-3xl text-2xl  border-solid border border-slate-500 cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-7 h-7 bg-secondary rounded-full text-white  hover:bg-slate-950/75 transition ease-in-out delay-100 hover:scale-110 duration-100"
+                  className="w-7 h-7 bg-secondary rounded-full text-orange-700 hover:text-blue-300 hover:bg-slate-950/75 "
                 >
                   <path
                     strokeLinecap="round"
@@ -138,12 +138,12 @@ function Header() {
             </div>
             {/* darkmode ends */}
             {/* login */}
-            <div className="relative mr-5">
+            <div className="relative box-border mr-12 transition ease-in-out delay-100 hover:scale-110 duration-100">
               <a
                 href=""
-                className="flex flex-col justify-center relative py-2 pr-12 pl-5 rounded-3xl box-border min-h-11 hover:bg-slate-800/10 transition ease-in-out delay-100 hover:scale-110 duration-100"
+                className="flex flex-col justify-center relative py-2 pr-12 pl-5 rounded-3xl  min-h-11 hover:bg-slate-800/10 active:bg-secondary  active:!text-bg "
               >
-                <div className=" absolute top-2 right-2.5 w-8 h-8 text-center text-xl leading-8">
+                <div className="absolute top-2 right-2.5 w-8 h-8 text-center text-xl leading-8">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -159,20 +159,18 @@ function Header() {
                     />
                   </svg>
                 </div>
-                <div className="block text-xs leading-4 text-gray-700">
-                  خوش‌آمدی
-                </div>
-                <div className=" block overflow-hidden max-w-[120px] font-bold whitespace-nowrap text-ellipsis">
+                <div className="block text-xs leading-4">خوش‌آمدی</div>
+                <div className="block overflow-hidden max-w-[120px] font-bold whitespace-nowrap text-ellipsis">
                   ثبت‌نام / ورود
                 </div>
               </a>
             </div>
             {/* login ends */}
             {/* cart */}
-            <div className="relative mr-12">
+            <div className="relative box-border transition ease-in-out delay-100 hover:scale-110 duration-100">
               <a
                 href=""
-                className="flex flex-col justify-center relative py-2 px-3 rounded-3xl box-border min-h-11 hover:bg-slate-800/10 transition ease-in-out delay-100 hover:scale-110 duration-100"
+                className="flex flex-col justify-center relative py-2 px-3 rounded-3xl  min-h-11 hover:bg-slate-800/10 active:bg-primary active:text-bg"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

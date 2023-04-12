@@ -1,4 +1,6 @@
 const styles = {
+  bodyBehavior:
+    "flex flex-col scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-100",
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2:
