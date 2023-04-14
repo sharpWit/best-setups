@@ -1,15 +1,31 @@
+import { MdPause, MdPlayArrow } from "react-icons/md";
 import { banner1, banner2, banner3, banner4, banner5 } from "../../assets";
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "./swiper.css";
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 const SwiperBanner = () => {
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [swiperInstance, setSwiperInstance] = useState(null);
+
+  const handleIsPlaying = () => {
+    if (swiperInstance) {
+      if (isPlaying) {
+        swiperInstance.autoplay.stop();
+      } else {
+        swiperInstance.autoplay.start();
+      }
+    }
+    setIsPlaying(!isPlaying);
+  };
+
+  const handleSwiper = (swiper) => {
+    setSwiperInstance(swiper);
+  };
+
   return (
     <div>
       <Swiper
@@ -25,8 +41,17 @@ const SwiperBanner = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className=" block relative"
+        className="block relative"
+        onSwiper={handleSwiper}
       >
+        <div className="swiper-control" onClick={handleIsPlaying}>
+          {isPlaying ? (
+            <MdPause className="ico" />
+          ) : (
+            <MdPlayArrow className="ico" />
+          )}
+        </div>
+
         <SwiperSlide>
           <img src={banner1} alt="" />
         </SwiperSlide>

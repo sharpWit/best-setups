@@ -4,4 +4,23 @@ import banner2 from "./banner-2.jpg";
 import banner3 from "./banner-3.jpg";
 import banner4 from "./banner-4.jpg";
 import banner5 from "./banner-5.jpg";
-export { logo, banner1, banner2, banner3, banner4, banner5 };
+import case1 from "./images/Case/case (1).jpg";
+import case2 from "./images/Case/case (2).jpg";
+import case3 from "./images/Case/case (3).jpg";
+import case4 from "./images/Case/case (4).jpg";
+import case5 from "./images/Case/case (5).jpg";
+import case6 from "./images/Case/case (6).jpg";
+export {
+  logo,
+  banner1,
+  banner2,
+  banner3,
+  banner4,
+  banner5,
+  case1,
+  case2,
+  case3,
+  case4,
+  case5,
+  case6,
+};

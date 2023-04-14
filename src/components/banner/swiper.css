@@ -20,3 +20,63 @@
   height: 100%;
   object-fit: cover;
 }
+
+.swiper-button-prev {
+  right: 300px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  text-shadow: -1px 0 #fff;
+  top: 90px;
+  margin: 0;
+  width: 80px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 24px;
+  color: #000;
+  opacity: 0.6;
+  transition: background-color 0.7s;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  opacity: 1;
+}
+.swiper-control {
+  bottom: auto;
+  top: 260px;
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.swiper-control:hover:before {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.swiper-control:before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 44px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transform: rotate(25deg);
+}
+
+.ico {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  speak: never;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
