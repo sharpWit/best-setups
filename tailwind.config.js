@@ -19,6 +19,8 @@ export default {
 
         text: "#212121",
 
+        text_gray: "#707070",
+
         menu_bg_banner: "#ecf1fe",
 
         bg_banner_2: "#f7f7f7",

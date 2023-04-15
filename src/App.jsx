@@ -21,7 +21,7 @@ const App = () => (
         <Header />
       </header>
 
-      <div className={`bg-bg_banner_2 ${styles.flexCenter} pt-0 my-auto mx-0`}>
+      <div className={`${styles.flexCenter} pt-0 my-auto mx-0`}>
         <Content />
       </div>
 

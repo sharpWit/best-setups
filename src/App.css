@@ -16,6 +16,8 @@ body {
 }
 body {
   overflow: auto;
+  background-color: #fff;
+  color: #212121;
 }
 
 * {

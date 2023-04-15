@@ -10,6 +10,10 @@ import case3 from "./images/Case/case (3).jpg";
 import case4 from "./images/Case/case (4).jpg";
 import case5 from "./images/Case/case (5).jpg";
 import case6 from "./images/Case/case (6).jpg";
+import gpu1 from "./images/GPU/gpu (1).jpg";
+import gpu2 from "./images/GPU/gpu (2).jpg";
+import gpu3 from "./images/GPU/gpu (3).jpg";
+import gpu4 from "./images/GPU/gpu (4).jpg";
 export {
   logo,
   banner1,
@@ -23,4 +27,8 @@ export {
   case4,
   case5,
   case6,
+  gpu1,
+  gpu2,
+  gpu3,
+  gpu4,
 };

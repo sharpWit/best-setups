@@ -1,5 +1,5 @@
 import { register } from "swiper/element/bundle";
-import SwiperBanner from "../banner/SwiperBanner";
+import SwiperBanner from "../slider/SwiperBanner";
 
 register();
 
