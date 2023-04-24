@@ -27,8 +27,3 @@ body {
   scroll-behavior: smooth;
   outline: none;
 }
-
-a {
-  color: unset;
-  text-decoration: none;
-}

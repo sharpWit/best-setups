@@ -6,7 +6,7 @@ function RowCards() {
         <div className=" flex flex-col-reverse items-start justify-between h-full">
           <a
             href=""
-            className="mt-[-12px] w-[60%] relative z-10 max-[480px] mix-blend-darken block shrink-0 overflow-hidden"
+            className="mt-[-12px] w-[60%] relative z-10   mix-blend-darken block shrink-0 overflow-hidden"
           >
             <img
               src={gpu1}
@@ -43,7 +43,7 @@ function RowCards() {
         <div className=" flex flex-col-reverse items-start justify-between h-full">
           <a
             href=""
-            className="mt-[-12px] w-[60%] relative z-10 max-[480px] mix-blend-darken block shrink-0 overflow-hidden"
+            className="mt-[-12px] w-[60%] relative z-10   mix-blend-darken block shrink-0 overflow-hidden"
           >
             <img
               src={gpu2}
@@ -80,7 +80,7 @@ function RowCards() {
         <div className=" flex flex-col-reverse items-start justify-between h-full">
           <a
             href=""
-            className="mt-[-12px] w-[60%] relative z-10 max-[480px] mix-blend-darken block shrink-0 overflow-hidden"
+            className="mt-[-12px] w-[60%] relative z-10   mix-blend-darken block shrink-0 overflow-hidden"
           >
             <img
               src={gpu3}
@@ -117,7 +117,7 @@ function RowCards() {
         <div className=" flex flex-col-reverse items-start justify-between h-full">
           <a
             href=""
-            className="mt-[-12px] w-[60%] relative z-10 max-[480px] mix-blend-darken block shrink-0 overflow-hidden"
+            className="mt-[-12px] w-[60%] relative z-10   mix-blend-darken block shrink-0 overflow-hidden"
           >
             <img
               src={gpu4}

@@ -27,6 +27,9 @@ export default {
 
         bg_banner_3: "#e3eafc",
       },
+      backgroundImage: {
+        "recommend-bg": "url('./src/assets/recommend_bg.png')",
+      },
       fontFamily: {
         sans: ["Vazirmatn", "sans-serif"],
       },

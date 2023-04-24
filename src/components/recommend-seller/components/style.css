@@ -1,0 +1,6 @@
+.grid-col {
+  max-width: calc(100% / 4 - 20px);
+}
+.recommend-container {
+  width: calc(100% / 3 - 54px);
+}
