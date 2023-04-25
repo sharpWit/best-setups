@@ -3,7 +3,7 @@ function MainSearchBar() {
     <div className="basis-1/2 relative w-full">
       <form action="">
         <div className="search_bg rounded-3xl relative flex box-border min-w-0 w-full h-10">
-          <div className="flex-1 relatove">
+          <div className="flex-1 relative">
             <input
               type="search"
               title="Search Site"
