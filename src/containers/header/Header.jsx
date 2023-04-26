@@ -15,7 +15,7 @@ function Header() {
       <div className="my-0 mx-auto max-w-[1800px] box-border">
         <div className="flex justify-between items-center py-3.5 px-5 box-border min-w-0">
           {/* right col */}
-          <div className="flex basis-2/3 items-center justify-start min-w-0">
+          <div className="flex basis-3/5 items-center justify-start min-w-0">
             {/* menu */}
             <Menu />
             {/* menu ends */}
@@ -28,7 +28,7 @@ function Header() {
           </div>
           {/* right col rnds */}
           {/* left col */}
-          <div className="flex basis-1/4 items-center justify-between min-w-0 shrink-0 ml-5">
+          <div className="flex basis-2/5 items-center justify-end min-w-0 shrink-0">
             {/* notification */}
             <Notification />
             {/* notification ends */}

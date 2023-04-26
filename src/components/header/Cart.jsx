@@ -1,6 +1,6 @@
 function Cart() {
   return (
-    <div className="relative box-border transition ease-in-out delay-100 hover:scale-110 duration-100">
+    <div className="relative box-border transition ease-in-out delay-100 hover:scale-110 duration-100 mr-3">
       <a
         href=""
         className="flex flex-col justify-center relative py-2 px-3 rounded-3xl  min-h-11 hover:bg-slate-800/10 active:bg-primary active:text-bg"
