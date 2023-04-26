@@ -12,7 +12,7 @@ function MainSearchBar() {
             />
           </div>
           <div>
-            <button className="bg-primary appearance-none py-0 px-3 rounded-3xl border-0 outline-0 box-border w-full h-full cursor-pointer transition ease-in-out delay-100 hover:scale-110 duration-100 self-end block relative">
+            <button className="bg-primary appearance-none py-0 px-5 rounded-3xl border-0 outline-0 box-border w-full h-full cursor-pointer transition ease-in-out delay-100 hover:scale-110 duration-100 self-end block relative">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
