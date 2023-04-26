@@ -13,7 +13,7 @@ function Content() {
       <MainNav />
       {/* main nav  ends */}
       {/*//! hero banner */}
-      <div className=" relative mb-10 h-[360px] z-0">
+      <div className=" relative mb-10 h-[360px] max-w-[1800px] mt-0 mx-auto z-0">
         <HeroBanner />
       </div>
       {/* hero banner ends */}
