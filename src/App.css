@@ -117,7 +117,7 @@ select {
   }
 }
 .sticky-top {
-  padding-top: 115px;
+  padding-top: 112px;
   height: auto;
-  min-height: calc(100% - 115px);
+  min-height: calc(100% - 112px);
 }

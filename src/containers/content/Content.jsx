@@ -8,7 +8,7 @@ import RecommendSeller from "../../components/recommend-seller/RecommendSeller";
 
 function Content() {
   return (
-    <div className="block min-w-[800px] w-full h-auto pt-28 pb-0 pl-0 my-0 mx-auto overflow-hidden menu_body">
+    <div className="block min-w-[800px] w-full h-auto py-0 pl-0 my-0 mx-auto overflow-hidden menu_body">
       {/*//! main nav */}
       <MainNav />
       {/* main nav  ends */}
