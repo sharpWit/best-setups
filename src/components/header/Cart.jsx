@@ -1,17 +1,14 @@
 function Cart() {
   return (
-    <div className="relative box-border transition ease-in-out delay-100 hover:scale-110 duration-100 mr-3">
-      <a
-        href=""
-        className="flex flex-col justify-center relative py-2 px-3 rounded-3xl  min-h-11 hover:bg-slate-800/10 active:bg-primary active:text-bg"
-      >
+    <div className="header2021-nav header2021-cart">
+      <a href="" className="header2021-nav-inner bg-transparent-gray">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth="1.5"
           stroke="currentColor"
-          className="w-7 h-7 inline-block"
+          className="ico ico-shopping-cart header2021-nav-icon"
         >
           <path
             strokeLinecap="round"
