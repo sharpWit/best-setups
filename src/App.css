@@ -116,3 +116,8 @@ select {
     transition-duration: 0.01ms !important;
   }
 }
+.sticky-top {
+  padding-top: 115px;
+  height: auto;
+  min-height: calc(100% - 115px);
+}

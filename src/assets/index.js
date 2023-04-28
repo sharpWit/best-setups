@@ -14,6 +14,9 @@ import gpu1 from "./images/GPU/gpu (1).jpg";
 import gpu2 from "./images/GPU/gpu (2).jpg";
 import gpu3 from "./images/GPU/gpu (3).jpg";
 import gpu4 from "./images/GPU/gpu (4).jpg";
+import hdd1 from "./images/HDD/hdd (1).jpg";
+import hdd2 from "./images/HDD/hdd (2).jpg";
+import rating from "./rating_S.png";
 export {
   logo,
   banner1,
@@ -31,4 +34,7 @@ export {
   gpu2,
   gpu3,
   gpu4,
+  hdd1,
+  hdd2,
+  rating,
 };
