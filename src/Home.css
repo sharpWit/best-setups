@@ -20648,7 +20648,7 @@ a.review-title-text:hover {
   margin-right: 7px;
 }
 .header2021-cart.header2021-nav {
-  margin-right: 3px;
+  margin-left: 3px;
 }
 .header2021-cart .header2021-nav-inner {
   padding-right: 3px;
@@ -22824,7 +22824,7 @@ ul.scrollbar .user-list-cell {
     margin-right: 0;
   }
   .header2021-cart.header2021-nav {
-    margin-right: 0;
+    margin-left: 0;
   }
   .header2021-cart .header2021-nav-inner {
     padding-left: 34px;
