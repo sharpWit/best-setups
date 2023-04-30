@@ -121,3 +121,9 @@ select {
   height: auto;
   min-height: calc(100% - 112px);
 }
+
+@media (min-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+}
